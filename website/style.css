@@ -1,0 +1,71 @@
+body, html { 
+	margin: 0; 
+	padding: 0; 
+} 
+#landing { 
+	background-image: url('background.jpg'); 
+	background-repeat: no-repeat;
+	 background-size: cover; 
+} 
+div.full-page {
+	width: 100vw;
+	max-width: 100%; /* Prevents overflow */
+	height: 100vh;
+	overflow: hidden;
+}
+
+#landing-page { 
+	font-size: 30px; 
+	font-size: 4em; 
+	color: white; 
+	margin:0; 
+	padding:0; 
+	position: absolute; 
+	top:35%; 
+	left:50%; 
+	transform: translate(-50%,-50% ); 
+}
+
+.panels {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size:25px;
+    padding-left:30px;
+    padding-right:30px;
+} 
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+p span {
+    display: block;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    z-index: 999;
+}
+
+nav {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav a {
+    color: purple;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
